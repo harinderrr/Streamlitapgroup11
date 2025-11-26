@@ -1,7 +1,7 @@
 """
 CMPT 3835 - Banff Traffic & Parking Prediction App with EDA
 Streamlit application with EDA, ML Modeling, and XAI features
-Group 6
+Group 11
 Date: November 25, 2025
 """
 
@@ -926,7 +926,7 @@ with tab6:
         **Course**: CMPT 3835 - ML Work Integrated Project 2  
         **Institution**: NorQuest College  
         **Term**: Fall 2025  
-        **Group**: 6  
+        **Group**: 11 
         
         ### 🎯 Project Goals
         
@@ -944,6 +944,6 @@ with tab6:
 st.markdown("---")
 st.markdown("""
 <div style='text-align: center; color: #888;'>
-    <p>© 2025 Banff Intelligent Parking System | CMPT 3835 Group 6 Project | Last Updated: Nov 25, 2025</p>
+    <p>© 2025 Banff Intelligent Parking System | CMPT 3835 Group 11 Project | Last Updated: Nov 25, 2025</p>
 </div>
 """, unsafe_allow_html=True)
