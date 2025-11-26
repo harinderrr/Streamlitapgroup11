@@ -1,8 +1,7 @@
 """
-CMPT 3835 - Banff Traffic & Parking Prediction App (FIXED)
+CMPT 3835 - Banff Traffic & Parking Prediction App
 Streamlit application with Explainable AI (XAI) features
-Author: Harinder Singh
-Date: November 25, 2025
+
 """
 
 import streamlit as st
@@ -129,11 +128,11 @@ def load_model():
     """Load the trained model and artifacts"""
     try:
         # Try to load actual model files
-        model = joblib.load('models/best_model.pkl')
-        scaler = joblib.load('models/scaler.pkl')
-        with open('models/feature_names.txt', 'r') as f:
+        model = joblib.load('.devcontainer/best_model.pkl')
+        scaler = joblib.load('.devcontainer/scaler.pkl')
+        with open('.devcontainer/feature_names.txt', 'r') as f:
             feature_names = f.read().splitlines()
-        with open('models/metrics.json', 'r') as f:
+        with open('.devcontainer/metrics.json', 'r') as f:
             metrics = json.load(f)
         return model, scaler
     except:
